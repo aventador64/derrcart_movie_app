@@ -1,5 +1,5 @@
 """
-This program fetches Movie information based on the Movie title and can be run with arguments or interactively. 
+This program fetches movie information based on the Movie title and can be run with arguments or interactively. 
 API - http://www.omdbapi.com 
 """
 import re
@@ -51,7 +51,7 @@ def main():
     movie_title = parsed.movie
 
     if parsed.movie is None:
-        movie_title = raw_input('Please Enter you Movie Title: ')
+        movie_title = raw_input('Please Enter Your Movie Title: ')
 
     get_movie(movie_title)
     
