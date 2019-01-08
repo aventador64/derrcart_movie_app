@@ -9,7 +9,7 @@ RUN python get-pip.py
 
 CMD ["mkdir", "/derrcart_movie_app"]
 
-
+COPY README.md /derrcart_movie_app/README.md
 COPY requirements.txt /derrcart_movie_app/requirements.txt
 RUN pip install -r /derrcart_movie_app/requirements.txt
 
