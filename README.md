@@ -1,6 +1,7 @@
 ==================================================================================================================
 
-get_movie.py - Presents Movie information based on the Movie title and can be run with arguments or interactively. 
+This program fetches Movie information based on the Movie title and can be run with arguments or interactively. 
+API - http://www.omdbapi.com 
 
 Args:
     -m, --movie : Enter your Movie Title
