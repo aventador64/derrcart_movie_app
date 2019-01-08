@@ -15,4 +15,4 @@ RUN pip install -r /derrcart_movie_app/requirements.txt
 
 COPY get_movie.py /derrcart_movie_app/get_movie.py
 
-CMD ["python", "/derrcart_movie_app/get_movie.py"]
+ENTRYPOINT ["python", "/derrcart_movie_app/get_movie.py"]
