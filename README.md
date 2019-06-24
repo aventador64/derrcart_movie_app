@@ -1,3 +1,5 @@
+TEST
+
 ==================================================================================================================
 
 This program fetches Movie information based on the Movie title and can be run with arguments or interactively. 
